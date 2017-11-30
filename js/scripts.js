@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("form#quiz").submit(function(event){
       event.preventDefault();
+      var orientation = $("input:radio[name=1]:checked").val();
       if (orientation === "both") {
         var random = Math.random();
         if (random <= .5) {
@@ -9,7 +10,6 @@ $(document).ready(function(){
           orientation = "women";
         }
       };
-      var orientation = $("input:radio[name=1]:checked").val();
       var weird = $("input:radio[name=2]:checked").val();
       var age = $("input:radio[name=3]:checked").val();
       if (orientation === "men" && weird === "no" && age === "20") {
