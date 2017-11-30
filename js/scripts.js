@@ -19,7 +19,7 @@ $(document).ready(function(){
       } else if (orientation === "men" && weird === "yes" && age === "20") {
         $(".day").show();
       } else if (orientation === "women" && weird === "yes" && age === "20") {
-        $(".olsen").show();
+        $(".olson").show();
       } else if (orientation === "men" && weird === "no" && age === "50") {
         $(".pitt").show();
       } else if (orientation === "women" && weird === "no" && age === "50") {
@@ -30,7 +30,7 @@ $(document).ready(function(){
         $(".barr").show();
       } else if (orientation === "men" && weird === "no" && age === "70") {
         $(".walken").show();
-      } else if (orientation === "woman" && weird === "no" && age === "70") {
+      } else if (orientation === "women" && weird === "no" && age === "70") {
         $(".dench").show();
       } else if (orientation === "men" && weird === "yes" && age === "70") {
         $(".brooks").show();
